@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DiscountManager.App.props" />
+</Project>

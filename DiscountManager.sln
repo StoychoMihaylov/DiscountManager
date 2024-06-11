@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManager.App", "DiscountManager.App\DiscountManager.App.csproj", "{EA316331-D889-4F90-831C-B7741572C828}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8D74F841-8C3F-4872-B8C9-9ACF28E388BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManager.Data", "DiscountManager.Data\DiscountManager.Data.csproj", "{51E5529F-A84C-4BA2-8BB6-03C0CDCF3B63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManager.Models", "DiscountManager.Models\DiscountManager.Models.csproj", "{D996C1AD-DA52-416C-802B-B7A97C609521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManager.Services", "DiscountManager.Services\DiscountManager.Services.csproj", "{043A2649-3E46-4AE2-86C4-19D3AA372CCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManager.UnitTests", "DiscountManager.UnitTests\DiscountManager.UnitTests.csproj", "{221A576E-22BD-4BC4-AABA-9446E0F26DB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA316331-D889-4F90-831C-B7741572C828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA316331-D889-4F90-831C-B7741572C828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA316331-D889-4F90-831C-B7741572C828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA316331-D889-4F90-831C-B7741572C828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D74F841-8C3F-4872-B8C9-9ACF28E388BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D74F841-8C3F-4872-B8C9-9ACF28E388BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D74F841-8C3F-4872-B8C9-9ACF28E388BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D74F841-8C3F-4872-B8C9-9ACF28E388BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E5529F-A84C-4BA2-8BB6-03C0CDCF3B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E5529F-A84C-4BA2-8BB6-03C0CDCF3B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E5529F-A84C-4BA2-8BB6-03C0CDCF3B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E5529F-A84C-4BA2-8BB6-03C0CDCF3B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D996C1AD-DA52-416C-802B-B7A97C609521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D996C1AD-DA52-416C-802B-B7A97C609521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D996C1AD-DA52-416C-802B-B7A97C609521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D996C1AD-DA52-416C-802B-B7A97C609521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{043A2649-3E46-4AE2-86C4-19D3AA372CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{043A2649-3E46-4AE2-86C4-19D3AA372CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{043A2649-3E46-4AE2-86C4-19D3AA372CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{043A2649-3E46-4AE2-86C4-19D3AA372CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221A576E-22BD-4BC4-AABA-9446E0F26DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221A576E-22BD-4BC4-AABA-9446E0F26DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221A576E-22BD-4BC4-AABA-9446E0F26DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221A576E-22BD-4BC4-AABA-9446E0F26DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {177974C3-BC48-4364-BFC3-6BAFE6C9C59D}
+	EndGlobalSection
+EndGlobal

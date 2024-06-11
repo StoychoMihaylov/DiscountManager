@@ -1,0 +1,10 @@
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.App.deps.json
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.App.runtimeconfig.json
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\appsettings.Development.json
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\appsettings.json
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.App.exe
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.App.dll
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.App.pdb
+C:\Users\stmih\source\repos\DiscountManager\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\stmih\source\repos\DiscountManager\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\stmih\source\repos\DiscountManager\obj\Debug\docker-c.35A3FFBA.Up2Date

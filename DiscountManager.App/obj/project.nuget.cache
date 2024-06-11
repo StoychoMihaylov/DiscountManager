@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "o176dTTkS3A=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stmih\\source\\repos\\DiscountManager\\DiscountManager.App\\DiscountManager.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stmih\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512"
+  ],
+  "logs": []
+}

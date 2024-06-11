@@ -1,0 +1,42 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+DiscountManager.Client/dist
+DiscountManager.Client/tmp
+DiscountManager.Client/out-tsc
+DiscountManager.Client/bazel-out
+
+# Node
+DiscountManager.Client/node_modules
+DiscountManager.Client/npm-debug.log
+DiscountManager.Client/yarn-error.log
+
+# IDEs and editors
+DiscountManager.Client/.idea/
+DiscountManager.Client/.project
+DiscountManager.Client/.classpath
+DiscountManager.Client/.c9/
+*.launch
+DiscountManager.Client/settings/
+*.sublime-workspace
+
+# Visual Studio Code
+DiscountManager.Client/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+DiscountManager.Client/.angular/cache
+DiscountManager.Client/sass-cache/
+DiscountManager.Client/connect.lock
+DiscountManager.Client/coverage
+DiscountManager.Client/libpeerconnection.log
+DiscountManager.Client/testem.log
+DiscountManager.Client/typings
+
+# System files
+.DS_Store
+Thumbs.db
