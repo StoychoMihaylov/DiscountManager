@@ -1,9 +1,33 @@
 version: '3.4'
 
 services:
-  discountmanager.app:
+  discountmanager-client:
+    image: discountmanagerclient:dev
+    build:
+      args:
+        BUILD_CONFIGURATION: Debug
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "DiscountManager.Client"
+    environment:
+      - NUGET_FALLBACK_PACKAGES=
+    volumes:
+      - C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client:/app:rw
+      - C:\Users\stmih\source\repos\DiscountManager:/src:rw
+      - C:\Users\stmih\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net8.0:/VSTools:ro
+      - C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload:/HotReloadAgent:ro
+      - C:\Users\stmih\.nuget\packages:/.nuget/packages:ro
+    entrypoint: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --wait"
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages  \"/app/bin/Debug/net8.0/DiscountManager.Client.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet"
+    tty: true
+  discountmanager-server:
     image: discountmanagerapp:dev
-    container_name: "DiscountManager.App_1"
     build:
       args:
         BUILD_CONFIGURATION: Debug

@@ -8,3 +8,8 @@ C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.App.pdb
 C:\Users\stmih\source\repos\DiscountManager\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\stmih\source\repos\DiscountManager\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\stmih\source\repos\DiscountManager\obj\Debug\docker-c.35A3FFBA.Up2Date
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.Client.deps.json
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.Client.runtimeconfig.json
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.Client.exe
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.Client.dll
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.Client.pdb

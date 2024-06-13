@@ -1,0 +1,12 @@
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Models\bin\Debug\net8.0\DiscountManager.Models.deps.json
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Models\bin\Debug\net8.0\DiscountManager.Models.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Models\bin\Debug\net8.0\DiscountManager.Models.pdb
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Models\obj\Debug\net8.0\DiscountManager.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Models\obj\Debug\net8.0\DiscountManager.Models.AssemblyInfoInputs.cache
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Models\obj\Debug\net8.0\DiscountManager.Models.AssemblyInfo.cs
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Models\obj\Debug\net8.0\DiscountManager.Models.csproj.CoreCompileInputs.cache
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Models\obj\Debug\net8.0\DiscountManager.Models.sourcelink.json
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Models\obj\Debug\net8.0\DiscountManager.Models.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Models\obj\Debug\net8.0\refint\DiscountManager.Models.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Models\obj\Debug\net8.0\DiscountManager.Models.pdb
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Models\obj\Debug\net8.0\ref\DiscountManager.Models.dll

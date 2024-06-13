@@ -23,3 +23,4 @@ C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\obj\Debug\net8.0
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\obj\Debug\net8.0\DiscountManager.App.pdb
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\obj\Debug\net8.0\DiscountManager.App.genruntimeconfig.cache
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\obj\Debug\net8.0\ref\DiscountManager.App.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\obj\Debug\net8.0\DiscountManager.App.sourcelink.json
