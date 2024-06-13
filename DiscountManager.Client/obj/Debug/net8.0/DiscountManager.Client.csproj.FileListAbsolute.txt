@@ -1,0 +1,15 @@
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\bin\Debug\net8.0\DiscountManager.Client.exe
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\bin\Debug\net8.0\DiscountManager.Client.deps.json
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\bin\Debug\net8.0\DiscountManager.Client.runtimeconfig.json
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\bin\Debug\net8.0\DiscountManager.Client.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\bin\Debug\net8.0\DiscountManager.Client.pdb
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net8.0\DiscountManager.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net8.0\DiscountManager.Client.AssemblyInfoInputs.cache
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net8.0\DiscountManager.Client.AssemblyInfo.cs
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net8.0\DiscountManager.Client.csproj.CoreCompileInputs.cache
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net8.0\DiscountManager.Client.sourcelink.json
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net8.0\DiscountManager.Client.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net8.0\refint\DiscountManager.Client.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net8.0\DiscountManager.Client.pdb
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net8.0\DiscountManager.Client.genruntimeconfig.cache
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net8.0\ref\DiscountManager.Client.dll

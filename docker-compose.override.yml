@@ -4,7 +4,15 @@ services:
 
   #CLIENT
 
-  #TO DO: Add client conf
+  discountmanager-client:
+    build:
+      context: .
+      dockerfile: DiscountManager.Client/Dockerfile
+    container_name: discountmanager-client
+    networks:
+      - discountmanager-network
+    stdin_open: true 
+    tty: true
 
   #SERVICE
 
@@ -22,6 +30,8 @@ services:
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
       - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
+    networks:
+      - discountmanager-network
 
   #DATABASES
 
@@ -34,4 +44,10 @@ services:
     ports:
       - 27019:27017
     volumes:
-      - ./mongo-volume:/data/db-node-b
+      - ./mongo-volume:/data/discount-manager-mongodb
+    networks:
+      - discountmanager-network
+
+networks:
+  discountmanager-network:
+    driver: bridge

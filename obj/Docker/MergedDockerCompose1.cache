@@ -1,6 +1,88 @@
 name: dockercompose17407843173652454045
 services:
-  discountmanager.app:
+  discount-manager-mongodb:
+    container_name: discount-manager-mongodb
+    environment:
+      MONGO_INITDB_ROOT_PASSWORD: rootpassword
+      MONGO_INITDB_ROOT_USERNAME: root
+    image: mongo:latest
+    networks:
+      discountmanager-network: null
+    ports:
+      - mode: ingress
+        target: 27017
+        published: "27019"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\stmih\source\repos\DiscountManager\mongo-volume
+        target: /data/discount-manager-mongodb
+        bind:
+          create_host_path: true
+  discountmanager-client:
+    build:
+      context: C:\Users\stmih\source\repos\DiscountManager
+      dockerfile: DiscountManager.Client/Dockerfile
+      args:
+        BUILD_CONFIGURATION: Debug
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: DiscountManager.Client
+      target: base
+    container_name: discountmanager-client
+    entrypoint:
+      - dotnet
+      - --roll-forward
+      - Major
+      - /VSTools/DistrolessHelper/DistrolessHelper.dll
+      - --wait
+    environment:
+      NUGET_FALLBACK_PACKAGES: ""
+    image: discountmanagerclient:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages  "/app/bin/Debug/net8.0/DiscountManager.Client.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      discountmanager-network: null
+    stdin_open: true
+    tty: true
+    volumes:
+      - type: bind
+        source: C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client
+        target: /app
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\stmih\source\repos\DiscountManager
+        target: /src
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\stmih\vsdbg\vs2017u5
+        target: /remote_debugger
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net8.0
+        target: /VSTools
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload
+        target: /HotReloadAgent
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\stmih\.nuget\packages
+        target: /.nuget/packages
+        read_only: true
+        bind:
+          create_host_path: true
+  discountmanager-server:
     build:
       context: C:\Users\stmih\source\repos\DiscountManager
       dockerfile: DiscountManager.App/Dockerfile
@@ -10,7 +92,11 @@ services:
         com.microsoft.created-by: visual-studio
         com.microsoft.visual-studio.project-name: DiscountManager.App
       target: base
-    container_name: DiscountManager.App
+    container_name: discount-manager-server
+    depends_on:
+      discount-manager-mongodb:
+        condition: service_started
+        required: true
     entrypoint:
       - dotnet
       - --roll-forward
@@ -31,7 +117,7 @@ services:
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
     networks:
-      default: null
+      discountmanager-network: null
     ports:
       - mode: ingress
         target: 8080
@@ -99,5 +185,6 @@ services:
         bind:
           create_host_path: true
 networks:
-  default:
-    name: dockercompose17407843173652454045_default
+  discountmanager-network:
+    name: dockercompose17407843173652454045_discountmanager-network
+    driver: bridge

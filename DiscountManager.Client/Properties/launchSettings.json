@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DiscountManager.Client": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

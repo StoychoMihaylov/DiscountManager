@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\stmih\\source\\repos\\DiscountManager\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C89CC31-C093-4EF6-97D9-A125797C8E51}|DiscountManager.Client\\DiscountManager.Client.csproj|c:\\users\\stmih\\source\\repos\\discountmanager\\discountmanager.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C89CC31-C093-4EF6-97D9-A125797C8E51}|DiscountManager.Client\\DiscountManager.Client.csproj|solutionrelative:discountmanager.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C89CC31-C093-4EF6-97D9-A125797C8E51}|DiscountManager.Client\\DiscountManager.Client.csproj|c:\\users\\stmih\\source\\repos\\discountmanager\\discountmanager.client\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9C89CC31-C093-4EF6-97D9-A125797C8E51}|DiscountManager.Client\\DiscountManager.Client.csproj|solutionrelative:discountmanager.client\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74F841-8C3F-4872-B8C9-9ACF28E388BF}|docker-compose.dcproj|c:\\users\\stmih\\source\\repos\\discountmanager\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8D74F841-8C3F-4872-B8C9-9ACF28E388BF}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74F841-8C3F-4872-B8C9-9ACF28E388BF}|docker-compose.dcproj|c:\\users\\stmih\\source\\repos\\discountmanager\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8D74F841-8C3F-4872-B8C9-9ACF28E388BF}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\stmih\\source\\repos\\DiscountManager\\DiscountManager.Client\\Dockerfile",
+              "RelativeDocumentMoniker": "DiscountManager.Client\\Dockerfile",
+              "ToolTip": "C:\\Users\\stmih\\source\\repos\\DiscountManager\\DiscountManager.Client\\Dockerfile",
+              "RelativeToolTip": "DiscountManager.Client\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-13T19:51:42.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\stmih\\source\\repos\\DiscountManager\\DiscountManager.Client\\Program.cs",
+              "RelativeDocumentMoniker": "DiscountManager.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\stmih\\source\\repos\\DiscountManager\\DiscountManager.Client\\Program.cs",
+              "RelativeToolTip": "DiscountManager.Client\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T19:43:18.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\stmih\\source\\repos\\DiscountManager\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\stmih\\source\\repos\\DiscountManager\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-06-13T19:22:56.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\stmih\\source\\repos\\DiscountManager\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\stmih\\source\\repos\\DiscountManager\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-06-13T19:23:00.275Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

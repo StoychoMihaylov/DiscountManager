@@ -1,0 +1,12 @@
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.UnitTests\bin\Debug\net8.0\DiscountManager.UnitTests.deps.json
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.UnitTests\bin\Debug\net8.0\DiscountManager.UnitTests.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.UnitTests\bin\Debug\net8.0\DiscountManager.UnitTests.pdb
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.UnitTests\obj\Debug\net8.0\DiscountManager.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.UnitTests\obj\Debug\net8.0\DiscountManager.UnitTests.AssemblyInfoInputs.cache
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.UnitTests\obj\Debug\net8.0\DiscountManager.UnitTests.AssemblyInfo.cs
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.UnitTests\obj\Debug\net8.0\DiscountManager.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.UnitTests\obj\Debug\net8.0\DiscountManager.UnitTests.sourcelink.json
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.UnitTests\obj\Debug\net8.0\DiscountManager.UnitTests.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.UnitTests\obj\Debug\net8.0\refint\DiscountManager.UnitTests.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.UnitTests\obj\Debug\net8.0\DiscountManager.UnitTests.pdb
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.UnitTests\obj\Debug\net8.0\ref\DiscountManager.UnitTests.dll

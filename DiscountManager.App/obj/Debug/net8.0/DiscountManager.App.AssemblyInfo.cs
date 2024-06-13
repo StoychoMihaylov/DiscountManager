@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiscountManager.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ff24565366ffb9a2eeab4dd3f5d8bab0c89fd79")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiscountManager.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiscountManager.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
