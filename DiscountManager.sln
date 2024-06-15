@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountManager.Services", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountManager.UnitTests", "DiscountManager.UnitTests\DiscountManager.UnitTests.csproj", "{221A576E-22BD-4BC4-AABA-9446E0F26DB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManager.Client", "DiscountManager.Client\DiscountManager.Client.csproj", "{9C89CC31-C093-4EF6-97D9-A125797C8E51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountManager.Client", "DiscountManager.Client\DiscountManager.Client.csproj", "{9C89CC31-C093-4EF6-97D9-A125797C8E51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
