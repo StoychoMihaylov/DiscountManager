@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "DiscountManagerController.Grpc";
+
+service DiscountManagerService {
+	rpc GenerateDiscountCodes (GenerateDiscountCodesRequest) returns (GenerateDiscountCodesResponse);
+}
+
+message GenerateDiscountCodesRequest {
+	int32 Count = 1;
+}
+
+message GenerateDiscountCodesResponse  {
+	repeated string Codes = 1;
+}

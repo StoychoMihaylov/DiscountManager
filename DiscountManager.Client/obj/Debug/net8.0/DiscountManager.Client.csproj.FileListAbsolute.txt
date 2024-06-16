@@ -13,3 +13,12 @@ C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net8.0\DiscountManager.Client.pdb
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net8.0\DiscountManager.Client.genruntimeconfig.cache
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net8.0\ref\DiscountManager.Client.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net8.0\DiscountManager.Client.csproj.AssemblyReference.cache
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Client\obj\Debug\net8.0\Discount.3D05BE75.Up2Date

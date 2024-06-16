@@ -8,6 +8,13 @@ C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\AWSSDK.Core.dll
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\DnsClient.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\Grpc.Net.Common.dll
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\MongoDB.Bson.dll
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\MongoDB.Driver.dll
@@ -21,8 +28,10 @@ C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\DiscountManager.Data.dll
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\DiscountManager.Models.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\DiscountManager.Services.dll
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\DiscountManager.Data.pdb
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\DiscountManager.Models.pdb
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\bin\Debug\net8.0\DiscountManager.Services.pdb
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\obj\Debug\net8.0\DiscountManager.App.csproj.AssemblyReference.cache
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\obj\Debug\net8.0\DiscountManager.App.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.App\obj\Debug\net8.0\DiscountManager.App.AssemblyInfoInputs.cache
