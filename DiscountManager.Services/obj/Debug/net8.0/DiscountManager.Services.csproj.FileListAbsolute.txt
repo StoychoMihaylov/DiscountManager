@@ -1,11 +1,17 @@
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\bin\Debug\net8.0\DiscountManager.Services.deps.json
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\bin\Debug\net8.0\DiscountManager.Services.dll
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\bin\Debug\net8.0\DiscountManager.Services.pdb
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\bin\Debug\net8.0\DiscountManager.Data.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\bin\Debug\net8.0\DiscountManager.Models.dll
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\bin\Debug\net8.0\DiscountManager.Data.pdb
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\bin\Debug\net8.0\DiscountManager.Models.pdb
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\obj\Debug\net8.0\DiscountManager.Services.csproj.AssemblyReference.cache
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\obj\Debug\net8.0\DiscountManager.Services.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\obj\Debug\net8.0\DiscountManager.Services.AssemblyInfoInputs.cache
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\obj\Debug\net8.0\DiscountManager.Services.AssemblyInfo.cs
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\obj\Debug\net8.0\DiscountManager.Services.csproj.CoreCompileInputs.cache
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\obj\Debug\net8.0\DiscountManager.Services.sourcelink.json
+C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\obj\Debug\net8.0\Discount.1E93B721.Up2Date
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\obj\Debug\net8.0\DiscountManager.Services.dll
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\obj\Debug\net8.0\refint\DiscountManager.Services.dll
 C:\Users\stmih\source\repos\DiscountManager\DiscountManager.Services\obj\Debug\net8.0\DiscountManager.Services.pdb

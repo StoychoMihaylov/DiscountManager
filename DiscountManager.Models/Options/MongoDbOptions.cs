@@ -3,7 +3,7 @@
     public class MongoDbOptions
     {
         public static string SectionName => "MongoDbOptions";
-        public string DatabaseName { get; set; }
-        public string ConnectionString { get; set; }
+        public string DatabaseName { get; }
+        public string ConnectionString { get; }
     }
 }

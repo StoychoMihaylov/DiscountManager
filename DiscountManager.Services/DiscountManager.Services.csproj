@@ -6,4 +6,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.63.0" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.63.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.64.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DiscountManager.Data\DiscountManager.Data.csproj" />
+    <ProjectReference Include="..\DiscountManager.Models\DiscountManager.Models.csproj" />
+  </ItemGroup>
+
 </Project>
