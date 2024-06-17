@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\stmih\\source\\repos\\DiscountManager\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D996C1AD-DA52-416C-802B-B7A97C609521}|DiscountManager.Models\\DiscountManager.Models.csproj|c:\\users\\stmih\\source\\repos\\discountmanager\\discountmanager.models\\protos\\discountmanagercontrollerservice.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{D996C1AD-DA52-416C-802B-B7A97C609521}|DiscountManager.Models\\DiscountManager.Models.csproj|solutionrelative:discountmanager.models\\protos\\discountmanagercontrollerservice.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043A2649-3E46-4AE2-86C4-19D3AA372CCF}|DiscountManager.Services\\DiscountManager.Services.csproj|c:\\users\\stmih\\source\\repos\\discountmanager\\discountmanager.services\\discountmanagercontrollerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043A2649-3E46-4AE2-86C4-19D3AA372CCF}|DiscountManager.Services\\DiscountManager.Services.csproj|solutionrelative:discountmanager.services\\discountmanagercontrollerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DiscountManagerControllerService.proto",
+              "DocumentMoniker": "C:\\Users\\stmih\\source\\repos\\DiscountManager\\DiscountManager.Models\\Protos\\DiscountManagerControllerService.proto",
+              "RelativeDocumentMoniker": "DiscountManager.Models\\Protos\\DiscountManagerControllerService.proto",
+              "ToolTip": "C:\\Users\\stmih\\source\\repos\\DiscountManager\\DiscountManager.Models\\Protos\\DiscountManagerControllerService.proto",
+              "RelativeToolTip": "DiscountManager.Models\\Protos\\DiscountManagerControllerService.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-06-17T16:30:06.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DiscountManagerControllerService.cs",
+              "DocumentMoniker": "C:\\Users\\stmih\\source\\repos\\DiscountManager\\DiscountManager.Services\\DiscountManagerControllerService.cs",
+              "RelativeDocumentMoniker": "DiscountManager.Services\\DiscountManagerControllerService.cs",
+              "ToolTip": "C:\\Users\\stmih\\source\\repos\\DiscountManager\\DiscountManager.Services\\DiscountManagerControllerService.cs",
+              "RelativeToolTip": "DiscountManager.Services\\DiscountManagerControllerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T16:29:02.952Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -4,12 +4,22 @@ option csharp_namespace = "DiscountManagerController.Grpc";
 
 service DiscountManagerService {
 	rpc GenerateDiscountCodes (GenerateDiscountCodesRequest) returns (GenerateDiscountCodesResponse);
+	rpc GetAllDiscountCodes (GetAllDiscountCodesRequest) returns (GetAllDiscountCodesResponse);
 }
 
+// GenerateDiscountCodes
 message GenerateDiscountCodesRequest {
 	int32 Count = 1;
 }
 
 message GenerateDiscountCodesResponse  {
 	repeated string Codes = 1;
+}
+
+
+// GetAllDiscountCodes
+message GetAllDiscountCodesRequest {}
+
+message GetAllDiscountCodesResponse {
+  repeated string Codes = 1;
 }

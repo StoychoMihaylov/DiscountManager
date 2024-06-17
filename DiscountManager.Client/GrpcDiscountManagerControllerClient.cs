@@ -24,6 +24,16 @@
             _client = new DiscountManagerService.DiscountManagerServiceClient(_channel);
         }
 
+        public async Task GetAllDiscountCodesAsync()
+        {
+            var request = new GetAllDiscountCodesRequest();
+            var response = await _client.GetAllDiscountCodesAsync(request);
+            foreach (var code in response.Codes)
+            {
+                Console.WriteLine(code);
+            }
+        }
+
         public async Task GenerateDiscountCodesAsync(int count)
         {
             var request = new GenerateDiscountCodesRequest { Count = count };
