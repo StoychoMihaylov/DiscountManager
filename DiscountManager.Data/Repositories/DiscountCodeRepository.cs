@@ -6,6 +6,7 @@
 
     public interface IDiscountCodeRepository
     {
+        Task<List<DiscountCodeDocument>> GetAllDiscountCodesAsync();
         Task InserNewDiscountCodesAsync(List<DiscountCodeDocument> codes);
     }
 
@@ -18,6 +19,11 @@
             this.discountCodeCollection = mongoContext
                 .Database
                 .GetCollection<DiscountCodeDocument>(nameof(DiscountCodeDocument));
+        }
+
+        public async Task<List<DiscountCodeDocument>> GetAllDiscountCodesAsync()
+        {
+            return await this.discountCodeCollection.Find(_ => true).ToListAsync();
         }
 
         public async Task InserNewDiscountCodesAsync(List<DiscountCodeDocument> codes)

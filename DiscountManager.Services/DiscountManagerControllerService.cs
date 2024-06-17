@@ -19,5 +19,14 @@
             response.Codes.AddRange(discountCodes.Select(doc => doc.Code));
             return response;
         }
+
+        public override async Task<GetAllDiscountCodesResponse> GetAllDiscountCodes(GetAllDiscountCodesRequest request, ServerCallContext context)
+        {
+            var discountCodes = await this.discountCodeGeneratorService.GetAllDiscountCodesAsync();
+            var response = new GetAllDiscountCodesResponse();
+            response.Codes.AddRange(discountCodes.Select(doc => doc.Code));
+
+            return response;
+        }
     }
 }

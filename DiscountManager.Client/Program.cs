@@ -46,6 +46,12 @@
                         Console.WriteLine("Invalid number. Please enter a valid integer.");
                     }
                 }
+
+                if (command.Equals("run get-discount-codes", StringComparison.OrdinalIgnoreCase)) 
+                {
+                    using var grpcClient = new GrpcDiscountManagerControllerClient(new Uri("http://discountmanager-server:8080"));
+                    await grpcClient.GetAllDiscountCodesAsync();
+                }
             }
         }
     }

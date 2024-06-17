@@ -8,6 +8,7 @@
     public interface IDiscountCodeGeneratorService
     {
         Task<List<DiscountCodeDocument>> GenerateDiscountCodesAsync(int count);
+        Task<List<DiscountCodeDocument>> GetAllDiscountCodesAsync();
     }
 
     public class DiscountCodeGeneratorService : IDiscountCodeGeneratorService
@@ -20,6 +21,11 @@
         {
             this.discountCodeRepository = discountCodeRepository;
             this.serviceSettings = serviceSettings.Value;
+        }
+
+        public async Task<List<DiscountCodeDocument>> GetAllDiscountCodesAsync()
+        {
+            return await this.discountCodeRepository.GetAllDiscountCodesAsync();
         }
 
         public async Task InsertNewDiscountCodesAsync(List<DiscountCodeDocument> codes)
