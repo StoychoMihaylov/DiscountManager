@@ -25,8 +25,7 @@
         {
             var codeCollection = _database.GetCollection<DiscountCodeDocument>(nameof(DiscountCodeDocument));
             var indexKeysDefinition = Builders<DiscountCodeDocument>.IndexKeys.Ascending(code => code.Code);
-            var indexOptions = new CreateIndexOptions { Unique = true };
-            codeCollection.Indexes.CreateOne(new CreateIndexModel<DiscountCodeDocument>(indexKeysDefinition, indexOptions));
+            codeCollection.Indexes.CreateOne(new CreateIndexModel<DiscountCodeDocument>(indexKeysDefinition));
         }
     }
 }
