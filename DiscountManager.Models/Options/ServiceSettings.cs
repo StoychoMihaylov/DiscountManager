@@ -3,6 +3,6 @@
     public class ServiceSettings
     {
         public static string SectionName => "ServiceSettings";
-        public int MaxDiscountCodesPerRequest { get; }
+        public int MaxDiscountCodesPerRequest { get; set; }
     }
 }

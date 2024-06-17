@@ -5,6 +5,7 @@ namespace DiscountManager.App
     using DiscountManager.Models.Options;
     using DiscountManager.Services;
     using DiscountManagerController.Grpc;
+    using Microsoft.Extensions.DependencyInjection;
 
     public class Program
     {
