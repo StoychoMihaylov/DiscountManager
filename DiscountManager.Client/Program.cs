@@ -52,6 +52,13 @@
                     using var grpcClient = new GrpcDiscountManagerControllerClient(new Uri("http://discountmanager-server:8080"));
                     await grpcClient.GetAllDiscountCodesAsync();
                 }
+
+                if (command.Equals("help", StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("Existing commands:");
+                    Console.WriteLine("run create-discount-codes  'creates discount codes'");
+                    Console.WriteLine("run get-discount-codes  'returns existing discount codes'");
+                }
             }
         }
     }

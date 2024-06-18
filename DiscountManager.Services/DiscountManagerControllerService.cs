@@ -14,7 +14,7 @@
 
         public override async Task<GenerateDiscountCodesResponse> GenerateDiscountCodes(GenerateDiscountCodesRequest request, ServerCallContext context)
         {
-            var discountCodes = await this.discountCodeGeneratorService.GenerateDiscountCodesAsync(request.Count);
+            var discountCodes = await this.discountCodeGeneratorService.GenerateDiscountCodesAsync(request.Count, context.CancellationToken);
             var response = new GenerateDiscountCodesResponse();
             response.Codes.AddRange(discountCodes.Select(doc => doc.Code));
             return response;
@@ -22,7 +22,7 @@
 
         public override async Task<GetAllDiscountCodesResponse> GetAllDiscountCodes(GetAllDiscountCodesRequest request, ServerCallContext context)
         {
-            var discountCodes = await this.discountCodeGeneratorService.GetAllDiscountCodesAsync();
+            var discountCodes = await this.discountCodeGeneratorService.GetAllDiscountCodesAsync(context.CancellationToken);
             var response = new GetAllDiscountCodesResponse();
             response.Codes.AddRange(discountCodes.Select(doc => doc.Code));
 

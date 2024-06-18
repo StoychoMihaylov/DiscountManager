@@ -7,8 +7,8 @@
 
     public interface IDiscountCodeGeneratorService
     {
-        Task<List<DiscountCodeDocument>> GenerateDiscountCodesAsync(int count);
-        Task<List<DiscountCodeDocument>> GetAllDiscountCodesAsync();
+        Task<List<DiscountCodeDocument>> GenerateDiscountCodesAsync(int count, CancellationToken cancellationToken);
+        Task<List<DiscountCodeDocument>> GetAllDiscountCodesAsync(CancellationToken cancellationToken);
     }
 
     public class DiscountCodeGeneratorService : IDiscountCodeGeneratorService
@@ -23,27 +23,12 @@
             this.serviceSettings = serviceSettings.Value;
         }
 
-        public async Task<List<DiscountCodeDocument>> GetAllDiscountCodesAsync()
+        public async Task<List<DiscountCodeDocument>> GetAllDiscountCodesAsync(CancellationToken cancellationToken)
         {
-            return await this.discountCodeRepository.GetAllDiscountCodesAsync();
+            return await this.discountCodeRepository.GetAllDiscountCodesAsync(cancellationToken);
         }
 
-        public async Task InsertNewDiscountCodesAsync(List<DiscountCodeDocument> codes)
-        {
-            if (codes == null || codes.Count == 0)
-            {
-                throw new ArgumentException("No discount codes provided to insert.");
-            }
-
-            if (codes.Count > serviceSettings.MaxDiscountCodesPerRequest)
-            {
-                throw new ArgumentException($"Cannot insert more than {serviceSettings.MaxDiscountCodesPerRequest} discount codes in a single request.");
-            }
-
-            await this.discountCodeRepository.InserNewDiscountCodesAsync(codes);
-        }
-
-        public async Task<List<DiscountCodeDocument>> GenerateDiscountCodesAsync(int count)
+        public async Task<List<DiscountCodeDocument>> GenerateDiscountCodesAsync(int count, CancellationToken cancellationToken)
         {
             if (count < 1 || count > serviceSettings.MaxDiscountCodesPerRequest)
             {
@@ -59,14 +44,27 @@
             }
 
             var discountCodeDocuments = generatedCodes
-                .Select(code => 
-                    new DiscountCodeDocument { Code = code }
-                )
+                .Select(code => new DiscountCodeDocument { Code = code })
                 .ToList();
 
-            await InsertNewDiscountCodesAsync(discountCodeDocuments);
+            await InsertNewDiscountCodesAsync(discountCodeDocuments, cancellationToken);
 
             return discountCodeDocuments;
+        }
+
+        public async Task InsertNewDiscountCodesAsync(List<DiscountCodeDocument> codes, CancellationToken cancellationToken)
+        {
+            if (codes == null || codes.Count == 0)
+            {
+                throw new ArgumentException("No discount codes provided to insert.");
+            }
+
+            if (codes.Count > serviceSettings.MaxDiscountCodesPerRequest)
+            {
+                throw new ArgumentException($"Cannot insert more than {serviceSettings.MaxDiscountCodesPerRequest} discount codes in a single request.");
+            }
+
+            await this.discountCodeRepository.InserNewDiscountCodesAsync(codes, cancellationToken);
         }
 
         private static string GenerateRandomDiscountCode()
