@@ -6,8 +6,8 @@
 
     public interface IDiscountCodeRepository
     {
-        Task<List<DiscountCodeDocument>> GetAllDiscountCodesAsync();
-        Task InserNewDiscountCodesAsync(List<DiscountCodeDocument> codes);
+        Task<List<DiscountCodeDocument>> GetAllDiscountCodesAsync(CancellationToken cancellationToken);
+        Task InserNewDiscountCodesAsync(List<DiscountCodeDocument> codes, CancellationToken cancellationToken);
     }
 
     public class DiscountCodeRepository : IDiscountCodeRepository
@@ -21,14 +21,15 @@
                 .GetCollection<DiscountCodeDocument>(nameof(DiscountCodeDocument));
         }
 
-        public async Task<List<DiscountCodeDocument>> GetAllDiscountCodesAsync()
+        public async Task<List<DiscountCodeDocument>> GetAllDiscountCodesAsync(CancellationToken cancellationToken)
         {
-            return await this.discountCodeCollection.Find(_ => true).ToListAsync();
+            var result = await this.discountCodeCollection.FindAsync(_ => true, cancellationToken: cancellationToken);
+            return await result.ToListAsync(cancellationToken);
         }
 
-        public async Task InserNewDiscountCodesAsync(List<DiscountCodeDocument> codes)
+        public async Task InserNewDiscountCodesAsync(List<DiscountCodeDocument> codes, CancellationToken cancellationToken)
         { 
-            await this.discountCodeCollection.InsertManyAsync(codes);
+            await this.discountCodeCollection.InsertManyAsync(codes, null, cancellationToken);
         }
     }
 }

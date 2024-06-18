@@ -8,17 +8,18 @@ C:\Users\stmih\source\repos\DiscountManager\bin\Debug\appsettings.json
 C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.App.exe
 C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.App.dll
 C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.Client.dll
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\Google.Protobuf.dll
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\Grpc.Core.Api.dll
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\Grpc.Net.Client.dll
 C:\Users\stmih\source\repos\DiscountManager\bin\Debug\Grpc.AspNetCore.Server.dll
 C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.Models.dll
 C:\Users\stmih\source\repos\DiscountManager\bin\Debug\Microsoft.Extensions.Options.dll
 C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.Data.dll
 C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.Services.dll
-C:\Users\stmih\source\repos\DiscountManager\bin\Debug\Grpc.Core.Api.dll
 C:\Users\stmih\source\repos\DiscountManager\bin\Debug\Grpc.Net.Common.dll
-C:\Users\stmih\source\repos\DiscountManager\bin\Debug\Google.Protobuf.dll
 C:\Users\stmih\source\repos\DiscountManager\bin\Debug\MongoDB.Driver.dll
-C:\Users\stmih\source\repos\DiscountManager\bin\Debug\MongoDB.Bson.dll
 C:\Users\stmih\source\repos\DiscountManager\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\stmih\source\repos\DiscountManager\bin\Debug\MongoDB.Bson.dll
 C:\Users\stmih\source\repos\DiscountManager\bin\Debug\MongoDB.Libmongocrypt.dll
 C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DnsClient.dll
 C:\Users\stmih\source\repos\DiscountManager\bin\Debug\SharpCompress.dll
@@ -33,4 +34,3 @@ C:\Users\stmih\source\repos\DiscountManager\bin\Debug\DiscountManager.Services.p
 C:\Users\stmih\source\repos\DiscountManager\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\stmih\source\repos\DiscountManager\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\stmih\source\repos\DiscountManager\obj\Debug\docker-c.35A3FFBA.Up2Date
-C:\Users\stmih\source\repos\DiscountManager\bin\Debug\Grpc.Net.Client.dll
