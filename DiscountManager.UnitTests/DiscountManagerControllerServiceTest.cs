@@ -11,13 +11,13 @@
     using System.Threading.Tasks;
     using Xunit;
 
-    public class DiscountManagerServiceTest
+    public class DiscountManagerControllerServiceTest
     {
         private readonly Mock<IDiscountCodeGeneratorService> mockGeneratorService;
         private readonly Mock<IDiscountCodeRepository> mockRepository;
         private readonly DiscountManagerControllerService service;
 
-        public DiscountManagerServiceTest()
+        public DiscountManagerControllerServiceTest()
         {
             this.mockGeneratorService = new Mock<IDiscountCodeGeneratorService>();
             this.mockRepository = new Mock<IDiscountCodeRepository>();
